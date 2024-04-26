@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
-
+    <title>Category Card Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <!-- Your code goes here -->
-    <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+    <div class="H-C">
+        <h1 class="choice cards"> SELECT YOUR CHOICE</h1>
     </div>
-    <!-- Happy coding 😊 -->
+    <div class="btns">
+        <span><button class="btn btn-men " id="menBtn"> Men</button></span>
+        <span><button class="btn btn-women " id="womenBtn">Women</button></span>
+        <span><button class="btn btn-kids " id="kidsBtn">Kids</button></span>
+    </div>
+
+    <div class="container">
+        <div id="menCards" class="cards"></div>
+        <div id="womenCards" class="cards"></div>
+        <div id="kidsCards" class="cards"></div>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 
